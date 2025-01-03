@@ -24,16 +24,16 @@ public class EnhancedCalculator {
 
             switch (opt){
                 case 1:
-                    basicOperations();
+                    basic();
                     break;
                 case 2:
-                    scientificCalculations();
+                    sciCal();
                     break;
                 case 3:
-                    unitConversion();
+                    unitConve();
                     break;
                 case 4:
-                    System.out.println("Thank You! For using this calculator ");
+                    System.out.println("Thank You!");
                     return;
                 default:
                     System.out.println("!!! Invalid Choice !!!, Please try again");
@@ -41,7 +41,7 @@ public class EnhancedCalculator {
         }
     }
 
-    public static void basicOperations(){
+    public static void basic(){
         Scanner sc= new Scanner(System.in);
         System.out.println("\nBasic Operations");
         System.out.println("Choose Operation: \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division");
@@ -124,7 +124,7 @@ public class EnhancedCalculator {
         }
     }
 
-    public static void scientificCalculations(){
+    public static void sciCal(){
         Scanner sc = new Scanner(System.in);
         System.out.println("\nScientific Operations");
         System.out.println("1. Square Root\n2. Exponents");
@@ -196,7 +196,7 @@ public class EnhancedCalculator {
 
     }
 
-    public static void unitConversion(){
+    public static void unitConve(){
         Scanner sc = new Scanner(System.in);
         System.out.println("\nUnit Conversion");
         System.out.println("1. Celsius to Fahrenheit\n2. Fahrenheit to Celsius\n3. INR to USD\n4. USD to INR\n5. IND to AUD\n6. AUD to INR");
