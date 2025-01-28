@@ -13,7 +13,6 @@ public class InventoryItem {
         this.price = price;
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }
