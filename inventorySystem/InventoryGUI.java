@@ -16,7 +16,6 @@ public class InventoryGUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        // Table Columns
         TableColumn<InventoryItem, String> idColumn = new TableColumn<>("ID");
         idColumn.setCellValueFactory(cellData -> new javafx.beans.property.SimpleStringProperty(cellData.getValue().getId()));
 
